@@ -3,7 +3,7 @@ node {
 
     stage('Clone repository') {
         /* Let's make sure we have the repository cloned to our workspace */
-
+        // git clone --recursive https://github.com/KyleFinley1/getintodevops-hellonode.git kubernetes_cookbook_2ed
         checkout scm
     }
 
